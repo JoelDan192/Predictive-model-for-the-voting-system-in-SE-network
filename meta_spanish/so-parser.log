@@ -1,0 +1,8 @@
+INFO:root:CREATE TABLE IF NOT EXISTS votes (CreationDate DATETIME, VoteTypeId INTEGER, UserId INTEGER, BountyAmount INTEGER, PostId INTEGER, Id INTEGER)
+INFO:root:CREATE TABLE IF NOT EXISTS comments (CreationDate DATETIME, UserDisplayName TEXT, Text TEXT, UserId INTEGER, Score INTEGER, PostId INTEGER, Id INTEGER)
+INFO:root:CREATE TABLE IF NOT EXISTS tags (Count INTEGER, WikiPostId INTEGER, Id INTEGER, TagName TEXT, ExcerptPostId INTEGER)
+INFO:root:CREATE TABLE IF NOT EXISTS postlinks (CreationDate DATETIME, PostLinkTypeId INTEGER, Id INTEGER, RelatedPostId INTEGER, PostId INTEGER, LinkTypeId INTEGER)
+INFO:root:CREATE TABLE IF NOT EXISTS users (DownVotes INTEGER, DisplayName TEXT, Age INTEGER, WebsiteUrl TEXT, EmailHash TEXT, Reputation INTEGER, Location TEXT, Views INTEGER, AboutMe TEXT, LastAccessDate DATETIME, ProfileImageUrl TEXT, UpVotes INTEGER, CreationDate DATETIME, Id INTEGER, AccountId INTEGER)
+INFO:root:CREATE TABLE IF NOT EXISTS posts (Body TEXT, ViewCount INTEGER, LastEditorDisplayName TEXT, ClosedDate DATETIME, Title TEXT, LastEditorUserId INTEGER, ParentID INTEGER, LastEditDate DATETIME, CommentCount INTEGER, CommunityOwnedDate DATETIME, AnswerCount INTEGER, AcceptedAnswerId INTEGER, Score INTEGER, OwnerDisplayName TEXT, PostTypeId INTEGER, OwnerUserId INTEGER, Tags TEXT, CreationDate DATETIME, FavoriteCount INTEGER, Id INTEGER, LastActivityDate DATETIME)
+INFO:root:CREATE TABLE IF NOT EXISTS badges (Name TEXT, UserId INTEGER, Id INTEGER, Date DATETIME, TagBased INTEGER, Class INTEGER)
+INFO:root:CREATE TABLE IF NOT EXISTS posthistory (Comment TEXT, CreationDate DATETIME, UserDisplayName TEXT, RevisionGUID INTEGER, UserId INTEGER, PostId INTEGER, PostHistoryTypeId INTEGER, Id INTEGER, Text TEXT)

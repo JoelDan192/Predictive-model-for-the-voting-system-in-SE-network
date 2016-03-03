@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tags>
+  <row Id="1" TagName="españa" Count="31" ExcerptPostId="8642" WikiPostId="8641" />
+  <row Id="5" TagName="pronunciación" Count="73" ExcerptPostId="9856" WikiPostId="9855" />
+  <row Id="10" TagName="gramática" Count="384" ExcerptPostId="1895" WikiPostId="1894" />
+  <row Id="11" TagName="pronombres" Count="99" ExcerptPostId="9950" WikiPostId="9949" />
+  <row Id="16" TagName="traducción" Count="808" ExcerptPostId="758" WikiPostId="757" />
+  <row Id="17" TagName="preposiciones" Count="68" ExcerptPostId="1084" WikiPostId="1083" />
+  <row Id="19" TagName="selección-de-palabras" Count="455" ExcerptPostId="1126" WikiPostId="1125" />
+  <row Id="21" TagName="género" Count="54" ExcerptPostId="1010" WikiPostId="1009" />
+  <row Id="22" TagName="modismos" Count="151" ExcerptPostId="945" WikiPostId="944" />
+  <row Id="23" TagName="etimología" Count="148" ExcerptPostId="941" WikiPostId="940" />
+  <row Id="24" TagName="uso-de-palabras" Count="364" ExcerptPostId="1200" WikiPostId="1199" />
+  <row Id="28" TagName="subjuntivo" Count="66" ExcerptPostId="959" WikiPostId="958" />
+  <row Id="29" TagName="diferencias-regionales" Count="164" ExcerptPostId="1024" WikiPostId="1023" />
+  <row Id="30" TagName="voseo" Count="7" ExcerptPostId="1082" WikiPostId="1081" />
+  <row Id="32" TagName="jerga" Count="62" ExcerptPostId="1203" WikiPostId="1202" />
+  <row Id="33" TagName="nicaragua" Count="9" ExcerptPostId="1020" WikiPostId="1019" />
+  <row Id="35" TagName="ortografía" Count="75" ExcerptPostId="943" WikiPostId="942" />
+  <row Id="38" TagName="adverbios" Count="21" ExcerptPostId="1897" WikiPostId="1896" />
+  <row Id="39" TagName="conjugacion" Count="46" ExcerptPostId="5502" WikiPostId="5501" />
+  <row Id="41" TagName="lingüística" Count="9" ExcerptPostId="12223" WikiPostId="12222" />
+  <row Id="43" TagName="verbos" Count="173" ExcerptPostId="947" WikiPostId="946" />
+  <row Id="48" TagName="puntuación" Count="24" ExcerptPostId="1901" WikiPostId="1900" />
+  <row Id="50" TagName="sintaxis" Count="33" ExcerptPostId="951" WikiPostId="950" />
+  <row Id="75" TagName="tiempos-verbales" Count="52" ExcerptPostId="2615" WikiPostId="2614" />
+  <row Id="76" TagName="voz-pasiva" Count="9" ExcerptPostId="10180" WikiPostId="10179" />
+  <row Id="77" TagName="formalidad" Count="18" ExcerptPostId="9862" WikiPostId="9861" />
+  <row Id="83" TagName="participio" Count="7" />
+  <row Id="84" TagName="infinitivo" Count="9" />
+  <row Id="87" TagName="sinónimos" Count="74" ExcerptPostId="949" WikiPostId="948" />
+  <row Id="90" TagName="definiciones" Count="182" ExcerptPostId="5489" WikiPostId="5488" />
+  <row Id="91" TagName="palabras-raras" Count="32" ExcerptPostId="762" WikiPostId="761" />
+  <row Id="95" TagName="chile" Count="6" ExcerptPostId="1012" WikiPostId="1011" />
+  <row Id="98" TagName="méxico" Count="96" ExcerptPostId="1022" WikiPostId="1021" />
+  <row Id="100" TagName="recursos" Count="13" ExcerptPostId="10113" WikiPostId="10112" />
+  <row Id="103" TagName="adjetivos" Count="57" ExcerptPostId="9852" WikiPostId="9851" />
+  <row Id="112" TagName="poesía" Count="10" ExcerptPostId="10184" WikiPostId="10183" />
+  <row Id="113" TagName="neutralidad-de-género" Count="3" />
+  <row Id="114" TagName="diminutivos" Count="7" ExcerptPostId="10125" WikiPostId="10124" />
+  <row Id="115" TagName="deletreo" Count="12" ExcerptPostId="10111" WikiPostId="10110" />
+  <row Id="116" TagName="imperativo" Count="11" ExcerptPostId="10117" WikiPostId="10116" />
+  <row Id="118" TagName="morfología" Count="4" />
+  <row Id="120" TagName="historia" Count="33" ExcerptPostId="10098" WikiPostId="10097" />
+  <row Id="123" TagName="cultura-de-masas" Count="3" />
+  <row Id="124" TagName="alfabeto" Count="4" ExcerptPostId="10161" WikiPostId="10160" />
+  <row Id="125" TagName="cartas" Count="5" ExcerptPostId="9870" WikiPostId="9869" />
+  <row Id="127" TagName="rae" Count="17" ExcerptPostId="1907" WikiPostId="1906" />
+  <row Id="128" TagName="contracciones" Count="7" />
+  <row Id="129" TagName="arcaísmos" Count="3" />
+  <row Id="130" TagName="tiempo" Count="18" ExcerptPostId="10107" WikiPostId="10106" />
+  <row Id="132" TagName="preguntas" Count="23" ExcerptPostId="957" WikiPostId="956" />
+  <row Id="133" TagName="portugués" Count="3" />
+  <row Id="135" TagName="terminología" Count="15" ExcerptPostId="955" WikiPostId="954" />
+  <row Id="136" TagName="yeismo" Count="3" />
+  <row Id="137" TagName="diacríticos" Count="7" ExcerptPostId="961" WikiPostId="960" />
+  <row Id="138" TagName="aspecto" Count="4" />
+  <row Id="139" TagName="formas-de-verbos" Count="15" />
+  <row Id="140" TagName="números" Count="20" ExcerptPostId="9850" WikiPostId="9849" />
+  <row Id="141" TagName="comparación-de-idiomas" Count="15" ExcerptPostId="10115" WikiPostId="10114" />
+  <row Id="142" TagName="fonología" Count="12" />
+  <row Id="144" TagName="saludos" Count="29" ExcerptPostId="1026" WikiPostId="1025" />
+  <row Id="145" TagName="preterito" Count="37" ExcerptPostId="1105" WikiPostId="1104" />
+  <row Id="146" TagName="plurales" Count="31" ExcerptPostId="1899" WikiPostId="1898" />
+  <row Id="148" TagName="cópulas" Count="14" ExcerptPostId="953" WikiPostId="952" />
+  <row Id="149" TagName="acepción" Count="3" />
+  <row Id="151" TagName="formas-irregulares" Count="5" ExcerptPostId="10190" WikiPostId="10189" />
+  <row Id="153" TagName="compuestos" Count="2" />
+  <row Id="154" TagName="comida" Count="36" ExcerptPostId="4817" WikiPostId="4816" />
+  <row Id="155" TagName="costa-rica" Count="4" ExcerptPostId="1016" WikiPostId="1015" />
+  <row Id="156" TagName="coloquialismos" Count="43" ExcerptPostId="1246" WikiPostId="1245" />
+  <row Id="157" TagName="abreviaturas" Count="23" ExcerptPostId="1248" WikiPostId="1247" />
+  <row Id="158" TagName="borges" Count="3" ExcerptPostId="9874" WikiPostId="9873" />
+  <row Id="160" TagName="sustantivos-propios" Count="5" />
+  <row Id="163" TagName="colombia" Count="21" ExcerptPostId="1018" WikiPostId="1017" />
+  <row Id="164" TagName="imperfecto" Count="21" ExcerptPostId="10100" WikiPostId="10099" />
+  <row Id="166" TagName="palabras-interrogativas" Count="5" />
+  <row Id="168" TagName="términos-de-dirección" Count="4" ExcerptPostId="10169" WikiPostId="10168" />
+  <row Id="169" TagName="cortesía" Count="11" ExcerptPostId="10121" WikiPostId="10120" />
+  <row Id="176" TagName="artículos" Count="21" ExcerptPostId="10188" WikiPostId="10187" />
+  <row Id="177" TagName="fonética" Count="9" />
+  <row Id="178" TagName="latín" Count="8" ExcerptPostId="10157" WikiPostId="10156" />
+  <row Id="182" TagName="condicional" Count="11" ExcerptPostId="10119" WikiPostId="10118" />
+  <row Id="183" TagName="nombres" Count="18" ExcerptPostId="9860" WikiPostId="9859" />
+  <row Id="184" TagName="solicitud-de-término" Count="14" ExcerptPostId="754" WikiPostId="753" />
+  <row Id="186" TagName="sufijos" Count="10" ExcerptPostId="9866" WikiPostId="9865" />
+  <row Id="189" TagName="español-neutral" Count="23" ExcerptPostId="1032" WikiPostId="1031" />
+  <row Id="190" TagName="drae" Count="3" ExcerptPostId="1911" WikiPostId="1910" />
+  <row Id="191" TagName="sílabas" Count="4" ExcerptPostId="1909" WikiPostId="1908" />
+  <row Id="192" TagName="phone-conversation" Count="3" ExcerptPostId="9872" WikiPostId="9871" />
+  <row Id="194" TagName="conversación" Count="6" />
+  <row Id="198" TagName="persona-gramatical" Count="12" />
+  <row Id="199" TagName="número-gramatical" Count="4" />
+  <row Id="202" TagName="orden-de-palabras" Count="8" ExcerptPostId="10129" WikiPostId="10128" />
+  <row Id="203" TagName="conjunciones" Count="22" ExcerptPostId="10087" WikiPostId="10086" />
+  <row Id="205" TagName="reflexivos" Count="26" ExcerptPostId="5491" WikiPostId="5490" />
+  <row Id="206" TagName="vocabulario-tecnico" Count="62" ExcerptPostId="1028" WikiPostId="1027" />
+  <row Id="207" TagName="posesivos" Count="2" />
+  <row Id="211" TagName="semantic-range" Count="3" />
+  <row Id="212" TagName="verb-moods" Count="3" />
+  <row Id="213" TagName="indicativa" Count="5" />
+  <row Id="214" TagName="lyrics" Count="4" ExcerptPostId="1905" WikiPostId="1904" />
+  <row Id="216" TagName="futuro" Count="13" ExcerptPostId="10127" WikiPostId="10126" />
+  <row Id="219" TagName="connotaciones" Count="7" ExcerptPostId="2501" WikiPostId="2500" />
+  <row Id="222" TagName="américa-latina" Count="23" ExcerptPostId="9864" WikiPostId="9863" />
+  <row Id="233" TagName="animales" Count="9" ExcerptPostId="10144" WikiPostId="10143" />
+  <row Id="236" TagName="expresiones-fijas" Count="8" />
+  <row Id="237" TagName="deixis" Count="4" />
+  <row Id="238" TagName="interjecciones" Count="7" ExcerptPostId="10186" WikiPostId="10185" />
+  <row Id="239" TagName="dialectos" Count="28" ExcerptPostId="9858" WikiPostId="9857" />
+  <row Id="240" TagName="diptongos" Count="5" ExcerptPostId="1913" WikiPostId="1912" />
+  <row Id="241" TagName="vocales" Count="5" />
+  <row Id="244" TagName="personal-a" Count="3" />
+  <row Id="245" TagName="religión" Count="5" />
+  <row Id="246" TagName="categorías-gramatical" Count="8" />
+  <row Id="247" TagName="aprendizaje" Count="18" ExcerptPostId="10109" WikiPostId="10108" />
+  <row Id="249" TagName="música" Count="6" ExcerptPostId="9868" WikiPostId="9867" />
+  <row Id="250" TagName="deportes" Count="7" ExcerptPostId="9848" WikiPostId="9847" />
+  <row Id="255" TagName="objetos-indirectos" Count="26" ExcerptPostId="10096" WikiPostId="10095" />
+  <row Id="256" TagName="objetos-directos" Count="23" ExcerptPostId="10103" WikiPostId="10102" />
+  <row Id="258" TagName="ropa" Count="4" ExcerptPostId="10163" WikiPostId="10162" />
+  <row Id="263" TagName="préstamo-lingüístico" Count="4" />
+  <row Id="266" TagName="se" Count="8" />
+  <row Id="267" TagName="lo" Count="10" />
+  <row Id="268" TagName="metáfora" Count="4" />
+  <row Id="271" TagName="transportación" Count="3" />
+  <row Id="276" TagName="education" Count="5" />
+  <row Id="277" TagName="argentina" Count="12" ExcerptPostId="4408" WikiPostId="4407" />
+  <row Id="283" TagName="vocabulario" Count="287" ExcerptPostId="9854" WikiPostId="9853" />
+  <row Id="290" TagName="finanzas" Count="4" ExcerptPostId="10167" WikiPostId="10166" />
+  <row Id="297" TagName="ciencia" Count="6" ExcerptPostId="10155" WikiPostId="10154" />
+  <row Id="298" TagName="matemáticas" Count="12" ExcerptPostId="2654" WikiPostId="2653" />
+  <row Id="299" TagName="escritura" Count="4" />
+  <row Id="306" TagName="acentos" Count="24" ExcerptPostId="10105" WikiPostId="10104" />
+  <row Id="308" TagName="sustantivos" Count="27" ExcerptPostId="3114" WikiPostId="3113" />
+  <row Id="313" TagName="expresion" Count="49" ExcerptPostId="9845" WikiPostId="9844" />
+  <row Id="317" TagName="idiomatico" Count="9" ExcerptPostId="10159" WikiPostId="10158" />
+  <row Id="326" TagName="jerga-internet" Count="8" ExcerptPostId="10165" WikiPostId="10164" />
+  <row Id="328" TagName="letras" Count="9" ExcerptPostId="10123" WikiPostId="10122" />
+  <row Id="335" TagName="estados-unidos" Count="3" ExcerptPostId="9878" WikiPostId="9877" />
+  <row Id="337" TagName="extranjerismos" Count="2" />
+  <row Id="341" TagName="laismo-leismo" Count="5" />
+  <row Id="348" TagName="significado" Count="40" ExcerptPostId="10067" WikiPostId="10066" />
+  <row Id="351" TagName="humor" Count="5" ExcerptPostId="10152" WikiPostId="10151" />
+  <row Id="353" TagName="estilo" Count="7" ExcerptPostId="9931" WikiPostId="9930" />
+  <row Id="362" TagName="cuba" Count="2" ExcerptPostId="4904" WikiPostId="4903" />
+  <row Id="365" TagName="gentilicio" Count="2" ExcerptPostId="9876" WikiPostId="9875" />
+  <row Id="369" TagName="venezuela" Count="4" />
+  <row Id="373" TagName="it" Count="9" ExcerptPostId="5519" WikiPostId="5518" />
+  <row Id="380" TagName="complemento-directo" Count="1" ExcerptPostId="7139" WikiPostId="7138" />
+  <row Id="383" TagName="vulgaridades" Count="10" ExcerptPostId="10136" WikiPostId="10135" />
+  <row Id="389" TagName="dichos" Count="3" />
+  <row Id="390" TagName="guinea-ecuatorial" Count="1" ExcerptPostId="8640" WikiPostId="8639" />
+  <row Id="397" TagName="distinción" Count="1" ExcerptPostId="9923" WikiPostId="9922" />
+  <row Id="401" TagName="insultos" Count="3" />
+  <row Id="403" TagName="declinación" Count="2" />
+  <row Id="404" TagName="oxímoron" Count="1" ExcerptPostId="10270" WikiPostId="10269" />
+  <row Id="406" TagName="chilenismo" Count="2" />
+  <row Id="407" TagName="redacción" Count="3" />
+  <row Id="408" TagName="corrección" Count="4" />
+  <row Id="409" TagName="frases-idiomáticas" Count="14" />
+  <row Id="412" TagName="pretérito-perfecto" Count="3" />
+  <row Id="417" TagName="difference" Count="8" ExcerptPostId="12319" WikiPostId="12318" />
+  <row Id="425" TagName="dinero" Count="1" />
+  <row Id="426" TagName="etiqueta" Count="1" />
+  <row Id="427" TagName="sonidos" Count="1" />
+  <row Id="428" TagName="identificacion" Count="1" />
+  <row Id="429" TagName="química" Count="1" />
+  <row Id="430" TagName="canción" Count="1" />
+  <row Id="431" TagName="ironía" Count="1" />
+  <row Id="433" TagName="perú" Count="4" />
+  <row Id="434" TagName="ecuador" Count="1" />
+  <row Id="435" TagName="refranes" Count="2" />
+  <row Id="436" TagName="interpretación" Count="1" />
+  <row Id="437" TagName="topónimos" Count="2" />
+  <row Id="438" TagName="diccionario" Count="1" />
+  <row Id="439" TagName="acentuación" Count="2" />
+  <row Id="442" TagName="fechas" Count="1" />
+  <row Id="443" TagName="horas" Count="1" />
+  <row Id="448" TagName="plantas" Count="1" />
+  <row Id="449" TagName="castellano-antiguo" Count="2" />
+  <row Id="450" TagName="prensa" Count="1" />
+  <row Id="451" TagName="subordinadas" Count="3" />
+  <row Id="452" TagName="años" Count="1" />
+</tags>

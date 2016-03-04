@@ -1,0 +1,8 @@
+select posts.Id, posts.PostTypeId, posts.AnswerCount, posts.CreationDate, posts.Score, users.Reputation from posts, users WHERE posts.OwnerUserId=users.Id;
+
+
+
+parent_id,ans_count,acc_id,reply_time,rep_reputation, rep_id
+
+select ans.Id, ans.AnswerCount, ans.AcceptedAnswerId, res.CreationDate, res.Reputation,res.Id
+   ...> from posts as ans, (select posts.Id,posts.CreationDate, users.Reputation, posts.ParentID from posts,users where posts.OwnerUserId=users.Id and posts.PostTypeId=2) as res where ans.Id=res.ParentID and ans.PostTypeId=1;

@@ -1,0 +1,12 @@
+select v.CreationDate,p.CreationDate,v.VoteTypeId,p.Id from
+(select * from votes where VoteTypeId=2 or VoteTypeId=3) as v,
+(select * from posts where posts.PostTypeId=1) as p where v.PostId=p.Id;
+
+select c.CreationDate,p.CreationDate,p.Id from
+comments as c,
+(select * from posts where posts.PostTypeId=2) as p where c.PostId=p.Id LIMIT 10;
+
+select v.CreationDate,p.CreationDate,v.VoteTypeId,p.Id,p.ParentId from
+(select * from votes where VoteTypeId=2 or VoteTypeId=3) as v,
+(select * from posts where posts.PostTypeId=2) as p where v.PostId=p.Id;
+

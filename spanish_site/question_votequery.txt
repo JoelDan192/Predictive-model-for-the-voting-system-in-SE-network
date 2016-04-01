@@ -4,7 +4,7 @@ comments as c,
 (select * from posts where posts.PostTypeId=2) as p where c.PostId=p.Id LIMIT 10;
 
 //votes-answers.csv
-select v.CreationDate,p.CreationDate,v.VoteTypeId,p.Id,p.ParentId,p.WordCount from
+select v.Id,v.CreationDate,p.CreationDate,v.VoteTypeId,p.Id,p.ParentId,p.WordCount from
 (select * from votes where VoteTypeId=2 or VoteTypeId=3) as v,
 (select Id, ParentId, CreationDate, sum(length(Body) - length(replace(Body, ' ', ''))+1) as WordCount from posts where posts.PostTypeId=2 GROUP BY Id) as p where v.PostId=p.Id;
 

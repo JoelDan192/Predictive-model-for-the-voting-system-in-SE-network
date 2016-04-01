@@ -15,7 +15,13 @@ from (select * from posts where PostTypeId=1) as p,
 where p.Id=v.PostId;
 
 //question_simple.csv
-select p.Id, p.CreationDate, p.LastActivityDate, p.AcceptedAnswerId, av.VoteCreation FROM
-(select * from posts where PostTypeId=1) as p LEFT JOIN
+select pv.Id, pv.CreationDate, pv.LastActivityDate, pv.AcceptedAnswerId, av.VoteCreation, pv.Score, pv.Votes FROM
+(select * from (select * from posts where PostTypeId=1) as p ,(select count(votes.Id) as Votes, votes.PostId from votes GROUP BY votes.PostId) as v where p.Id=v.PostId) as pv LEFT JOIN
 (select a.Id as Id,v.CreationDate as VoteCreation from (select Id,CreationDate from posts where PostTypeId=2) as a, (select CreationDate,PostId from votes where votes.VoteTypeId=1) as v where a.Id=v.PostId) as av
-ON av.Id=p.AcceptedAnswerId limit 20;
+ON av.Id=pv.AcceptedAnswerId limit 20;
+
+//question_votes.csv
+select pv.Id, pv.CreationDate, pv.LastActivityDate, pv.AcceptedAnswerId, av.VoteCreation, pv.VoteTypeId,pv.CreationDate FROM
+(select p.Id,p.CreationDate,p.LastActivityDate,p.AcceptedAnswerId,v.VoteTypeId,v.CreationDate from (select * from posts where PostTypeId=1) as p ,(select VoteTypeId,CreationDate,PostId from votes where VoteTypeId=2 or VoteTypeId=3) as v where p.Id=v.PostId) as pv LEFT JOIN
+(select a.Id as Id,v.CreationDate as VoteCreation from (select Id,CreationDate from posts where PostTypeId=2) as a, (select CreationDate,PostId from votes where votes.VoteTypeId=1) as v where a.Id=v.PostId) as av
+ON av.Id=pv.AcceptedAnswerId limit 20;

@@ -1,4 +1,4 @@
-,QuestionId,AnsId,Age_vot,AnsWordCount,AcceptedAnsId,QScore,QVotes,Score,Votes,CumVotes,CumScore,ReScore,QReScore,Comments,AnsRank,ReScore_rank,Ans_count,Pbias,DRank,EPbias
+QuestionId,AnsId,Age_vot,AnsWordCount,AcceptedAnsId,QScore,QVotes,Score,Votes,CumVotes,CumScore,ReScore,QReScore,Comments,AnsRank,ReScore_rank,Ans_count,Pbias,DRank,EPbias
 0,1.0,56,0,201.0,56.0,0.0,0.0,2.0,2.0,2.0,2.0,0.666666666667,0.0,0,1,1,1,1.0,0,1.0
 1,2.0,10,0,145.0,10.0,0.0,0.0,3.0,3.0,3.0,3.0,0.75,0.0,0,1,1,1,1.0,0,1.0
 2,2.0,10,0,145.0,10.0,0.0,0.0,3.0,3.0,3.0,3.0,0.75,0.0,0,1,1,1,1.0,0,1.0

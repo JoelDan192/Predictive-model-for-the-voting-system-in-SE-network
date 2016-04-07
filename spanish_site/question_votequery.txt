@@ -25,3 +25,8 @@ select pv.Id, pv.CreationDate, pv.LastActivityDate, pv.AcceptedAnswerId, av.Vote
 (select p.Id,p.CreationDate,p.LastActivityDate,p.AcceptedAnswerId,v.VoteTypeId,v.CreationDate from (select * from posts where PostTypeId=1) as p ,(select VoteTypeId,CreationDate,PostId from votes where VoteTypeId=2 or VoteTypeId=3) as v where p.Id=v.PostId) as pv LEFT JOIN
 (select a.Id as Id,v.CreationDate as VoteCreation from (select Id,CreationDate from posts where PostTypeId=2) as a, (select CreationDate,PostId from votes where votes.VoteTypeId=1) as v where a.Id=v.PostId) as av
 ON av.Id=pv.AcceptedAnswerId limit 20;
+
+
+//user_post_votes.csv
+select up.uId,up.uViews,up.uRep,up.pId,up.pType,v.vType,up.postCreation,v.voteCreation from (select u.Id as uId, u.Reputation as uRep, u.Views as uViews, p.Id as pId, p.PostTypeId as pType, p.CreationDate as postCreation from users as u,posts as p where p.OwnerUserId=u.Id and (p.PostTypeId=1 or p.PostTypeId=2)) as up
+LEFT JOIN (select votes.VoteTypeId as vType,votes.PostId as pId,votes.CreationDate as voteCreation from votes where votes.VoteTypeId=2 or votes.VoteTypeId=3) as v ON v.pId=up.pId limit 20;

@@ -11,8 +11,8 @@ if (length(args)==0){
 qtpostrain <- read.csv(args[1])
 qtpostest <- read.csv(args[2])
 
-modvanilla <- multinom(AnsRank~ReScore+Norm_Pos,qtpostrain[,c("AnsRank","ReScore","Norm_Pos")])
-moddrank <- multinom(AnsRank~ReScore+Norm_Pos+Norm_DRank,qtpostrain[,c("AnsRank","ReScore","Norm_Pos","Norm_DRank")])
+modvanilla <- multinom(AnsRank~ReScore+EPbias,qtpostrain[,c("AnsRank","ReScore","EPbias")])
+moddrank <- multinom(AnsRank~ReScore+EPbias+Norm_DRank,qtpostrain[,c("AnsRank","ReScore","EPbias","Norm_DRank")])
 
 predictMNL <- function(model, newdata) {
   # Only works for neural network models
@@ -37,14 +37,14 @@ predictMNL <- function(model, newdata) {
 
 nb_choices <- (qtpostrain$Ans_count)[1]
 
-yvanilla <- predictMNL(modvanilla,qtpostest[,c("ReScore","Norm_Pos")])
-ydrank <- predictMNL(moddrank,qtpostest[,c("ReScore","Norm_Pos","Norm_DRank")])
+yvanilla <- predictMNL(modvanilla,qtpostest[,c("ReScore","EPbias")])
+ydrank <- predictMNL(moddrank,qtpostest[,c("ReScore","EPbias","Norm_DRank")])
 yrand <- sample(1:nb_choices,length(yvanilla),replace=TRUE)
 ytest <- qtpostest$AnsRank
 
 outname <- args[3]
 sink(outname)
-cat(c('','RSS_vanilla','RSS_drank','RSS_random'))
+cat(c('','RSS_baseline','RSS_drank','RSS_random'))
 cat('\n')
 cat(c(nb_choices,sqrt(sum((yvanilla-ytest)^2)),sqrt(sum((ydrank-ytest)^2)),sqrt(sum((yrand-ytest)^2))))
 
